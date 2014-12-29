@@ -6,3 +6,5 @@ Git tracks changes of files(the second changes).
 Creating a new branch is quick and simple.
 
 Test "fast forward" model.
+
+Test "--no-ff" model.
