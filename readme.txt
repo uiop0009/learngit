@@ -7,5 +7,5 @@ Creating a new branch is quick and simple.
 
 Test "fast forward" model.
 
-Test "--no-ff" model. 
+Test "--no-ff" model. I have to debug.
 
