@@ -34,8 +34,13 @@
 2、Git支持多种协议，包括 https ，但通过 ssh 支持的原生 git  协议速度最快，而且无需每次推送都输入口令。
 3、克隆后，用 cd 仓库地址 命令转到克隆仓库位置，用 ls 命令查看当前仓库中包含哪些文件。
 
-
-
+☆★☆创建与合并分支：
+1、查看分支： git  branch
+2、创建分支： git  branch  <name>
+3、切换分支： git  checkout  <name>
+4、创建+切换分支： git  checkout  -b  <name>
+5、合并某分支到当前分支： git  merge  <name>
+6、删除分支： git  branch  -d  <name>
 
 
 
