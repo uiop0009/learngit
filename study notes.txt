@@ -42,7 +42,9 @@
 5、合并某分支到当前分支： git  merge  <name>
 6、删除分支： git  branch  -d  <name>
 
-
+☆★☆解决冲突：
+1、当Git无法自动完成合并分支时，就必须首先解决冲突，之后再提交，合并即可完成。
+2、用 git  log  --graph 命令可以看到分支合并图。（清晰简洁的格式化写法如下： git  log  --graph   --pretty=oneline  --abbrev-commit）
 
 
 
