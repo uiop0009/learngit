@@ -25,7 +25,7 @@
 4、如果一个文件已经被提交到版本库，那么你永远不用担心误删，但是要小心，你只能恢复文件到最新版本，你会丢失最近一次提交后你修改的内容。
 
 ☆★☆添加远程库：
-1、要关联一个远程库，使用命令: git remote add origin git@server-name:path/repo-name.git 。（如果要重新关联，先用git  remote  rm  origin 删除关联，再用 git remote add origin 建立关联）
+1、要关联一个远程库，使用命令: git remote add origin git@server-name:path/repo-name.git 。（如果要重新关联，先用git  remote  rm  origin 删除关联，再用 git remote add origin 建立关联）[命令 git  remote  -v  可以查看当前 origin 的含义]
 2、关联后，使用命令： git push -u origin master 第一次推送master分支的所有内容。
 3、此后，每次本地提交后，只要有必要，就可以使用命令 git push origin master 推送最新修改。
 
