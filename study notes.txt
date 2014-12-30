@@ -62,7 +62,9 @@
 	·  git  stash  pop  命令，恢复的同时把stash内容也删除了。
 4、可以多次stash，恢复的时候，先用 git  stash  list 命令查看，然后恢复指定的stash，使用命令： git  stash  apply  stash@{0}。
 
-
+☆★☆Feature分支：
+1、开发一个新的 feature，最好新建一个分支。
+2、如果要丢弃一个没被合并过得分支，可以通过 git  branch  -D  <name> 强行删除。
 
 
 
