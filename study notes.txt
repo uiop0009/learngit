@@ -57,6 +57,10 @@
 ☆★☆Bug分支：
 1、修复bug时，我们会通过创建新的bug分支进行修复，然后合并，最后删除；
 2、当手头工作没有完成时，先把工作现场  git  stash  一下，然后去修复bug，修复后， 再 git  stash  pop，回到工作现场。
+3、用 git stash list 查看保持的所有工作现场，恢复时有两种方法：
+	·  git  stash  apply 命令，但恢复后，stash内容并不删除，你需要用 git  stash  drop 来删除；
+	·  git  stash  pop  命令，恢复的同时把stash内容也删除了。
+4、可以多次stash，恢复的时候，先用 git  stash  list 命令查看，然后恢复指定的stash，使用命令： git  stash  apply  stash@{0}。
 
 
 
