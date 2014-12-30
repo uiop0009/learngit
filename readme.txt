@@ -10,3 +10,4 @@ Test "fast forward" model.
 Test "--no-ff" model. I have to debug.
 
 I'm working, don't  bothre me, OK? Good, I have ending my work.
+I like working ,working! I like working,working! La la la ,la la la ! Ok! Job down,good!
